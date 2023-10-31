@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+    .sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+    }
+        .sidebar-headline{
+            background-color: rgba(136, 230, 84, 0.4);
+        }
+        .sidebar-content{
+            background-color: rgba(236, 130, 24, 0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5%;
+            align-items: center;
+            height: 100%;
+        }
+            .sidebar-content-unterpunkt{
+                background-color: rgba(2, 33, 234, 0.4);
+            }
+    .gridbox{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 20%;
+        
+        background-color: blue;
+    }
+        .header{
+            background-color: red;
+            font-size: 50px;
+        }
+        .main-content{
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+        }
+            .thema{
+                background-color: pink;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                outline: black 3px dashed;
+            }
+                .thema-headline{
+                    background-color: blueviolet;
+                    width: 10%;
+                    font-size: 30px;
+                }
+                .thema-content{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: brown;
+                    width: 90%;
+                }
+                    .thema-content-unterpunkt{
+                        background-color: chartreuse;
+                        font-size: 20px;
+                    }
+                    .thema-content-information{
+                        background-color: coral;
+                        font-size: 15px;
+                    }
+        .footer{
+            background-color: aqua;
+            height: 5%;
+            width: 100%;
+        }    
+        
